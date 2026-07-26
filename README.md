@@ -4,10 +4,9 @@
 
 ## 📌 Overview
 
-This project demonstrates an **End-to-End Data Analytics Pipeline** using **Python** and **SQL**. The workflow begins with extracting Walmart sales data from Kaggle, followed by cleaning and transforming the data using **Pandas**. The cleaned data is then loaded into a relational database (**MySQL** or **PostgreSQL**) using **SQLAlchemy**. Finally, SQL queries are used to solve real-world business problems and generate valuable insights.
+This project demonstrates an **End-to-End Data Analytics Pipeline** using **Python** and **SQL**. The workflow begins with extracting Walmart sales data from Kaggle, followed by cleaning and transforming the data using **Pandas**. The cleaned data is then loaded into a relational database SQl Server using **SQLAlchemy**. Finally, SQL queries are used to solve real-world business problems and generate valuable insights.
 
 This project showcases practical skills in:
-
 - Data Extraction
 - Data Cleaning
 - Data Transformation
@@ -15,11 +14,9 @@ This project showcases practical skills in:
 - SQL Analysis
 - Business Intelligence
 
----
 
-# 🚀 Project Workflow
 
-```text
+## Project Workflow :
            Kaggle Dataset
                  │
                  ▼
@@ -31,19 +28,18 @@ This project showcases practical skills in:
                  │
                  ▼
      Load into SQL Database
-      (MySQL / PostgreSQL)
+      (SQL Server)
                  │
                  ▼
       Business Analysis using SQL
                  │
                  ▼
           Generate Insights
-```
 
----
 
-# 🛠️ Tech Stack
 
+
+## Tech Stack :
 ### Programming Language
 
 - Python
@@ -57,30 +53,11 @@ This project showcases practical skills in:
 
 ### Database
 
-- MySQL
-- PostgreSQL
+- SQL Server 
 
-### SQL Concepts Used
 
-- SELECT
-- WHERE
-- ORDER BY
-- GROUP BY
-- Aggregate Functions
-- CASE WHEN
-- Common Table Expressions (CTEs)
-- Window Functions
-- RANK()
-- LAG()
-- DATEPART()
-- DATENAME()
-- YEAR()
+## Project Structure :
 
----
-
-# 📂 Project Structure
-
-```text
 Walmart-End-to-End-Analysis/
 │
 ├── data/
@@ -98,50 +75,11 @@ Walmart-End-to-End-Analysis/
 ├── main.py
 ├── requirements.txt
 └── README.md
-```
 
----
 
-# 📦 Installation
 
-Clone the repository
 
-```bash
-git clone https://github.com/yourusername/Walmart-End-to-End-Analysis.git
-```
-
-Move into the project directory
-
-```bash
-cd Walmart-End-to-End-Analysis
-```
-
-Install the required packages
-
-```bash
-pip install -r requirements.txt
-```
-
-Or install manually
-
-```bash
-pip install pandas sqlalchemy pymysql psycopg2
-```
-
----
-
-# 📋 Requirements
-
-```text
-pandas
-sqlalchemy
-pymysql
-psycopg2
-```
-
----
-
-# 📊 Data Processing
+## Data Processing
 
 The dataset is processed using **Pandas**.
 
@@ -156,20 +94,8 @@ The following steps are performed:
 - Transform Data
 - Export Clean Data to SQL Database
 
----
 
-# 🗄️ Database Loading
-
-The cleaned dataset is loaded into:
-
-- MySQL using **PyMySQL**
-- PostgreSQL using **psycopg2**
-
-Database connection is managed through **SQLAlchemy**.
-
----
-
-# 📈 Business Questions Solved
+## Business Questions Solved :
 
 ### 1. Calculate the total sales revenue.
 
@@ -201,25 +127,8 @@ Database connection is managed through **SQLAlchemy**.
 
 ### 15. Which branches experienced the largest decrease in revenue compared to the previous year?
 
----
 
-# 💡 SQL Skills Demonstrated
-
-- Aggregate Functions
-- GROUP BY
-- ORDER BY
-- CASE WHEN
-- Date Functions
-- Window Functions
-- Ranking Functions
-- RANK()
-- LAG()
-- CTE (Common Table Expressions)
-- Business Analytics Queries
-
----
-
-# 📊 Sample Business Insights
+## Sample Business Insights
 
 - Identified the highest revenue-generating branch.
 - Determined the city with the highest sales.
@@ -229,60 +138,3 @@ Database connection is managed through **SQLAlchemy**.
 - Identified customer payment preferences.
 - Analyzed sales across Morning, Afternoon, and Evening shifts.
 
----
-
-# ▶️ How to Run
-
-Run the Python script
-
-```bash
-python main.py
-```
-
-Run the SQL script
-
-```sql
-walmart_analysis.sql
-```
-
----
-
-# 📸 Project Pipeline
-
-Save the image below inside the **images** folder as
-
-```
-images/walmart_project_pipeline.png
-```
-
-Then use
-
-```markdown
-![Project Pipeline](images/walmart_project_pipeline.png)
-```
-
----
-
-# 📌 Future Improvements
-
-- Build an interactive Power BI Dashboard
-- Create Tableau Dashboards
-- Automate ETL using Apache Airflow
-- Dockerize the project
-- Deploy using Streamlit
-- Connect to Cloud Databases
-- Schedule automated data refresh
-
----
-
-# 👨‍💻 Author
-
-**Your Name**
-
-LinkedIn: https://linkedin.com/in/yourprofile
-
-GitHub: https://github.com/yourusername
-
----
-
-## ⭐ If you found this project helpful, please consider giving it a Star on GitHub!
