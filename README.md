@@ -1,6 +1,6 @@
 # 🛒 Walmart End-to-End Data Analysis Project (Python + SQL)
 
-![Project Pipeline](images/walmart_project_pipeline.png)
+![Project Pipeline](https://github.com/GopalReddyDA/Walmart-Business-Analysis-/blob/main/walmart_project-piplelines.png)
 
 ## 📌 Overview
 
