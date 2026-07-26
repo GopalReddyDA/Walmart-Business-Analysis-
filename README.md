@@ -33,28 +33,6 @@ This project showcases practical skills in:
 - SQL Server 
 
 
-## Project Structure :
-
-Walmart-End-to-End-Analysis/
-│
-├── data/
-│   └── walmart.csv
-│
-├── notebooks/
-│   └── Walmart_Analysis.ipynb
-│
-├── sql/
-│   └── walmart_analysis.sql
-│
-├── images/
-│   └── walmart_project_pipeline.png
-│
-├── main.py
-├── requirements.txt
-└── README.md
-
-
-
 
 ## Data Processing
 
