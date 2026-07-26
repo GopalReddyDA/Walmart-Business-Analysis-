@@ -16,30 +16,7 @@ This project showcases practical skills in:
 
 
 
-## Project Workflow :
-           Kaggle Dataset
-                 │
-                 ▼
-      Extract Data with Python
-                 │
-                 ▼
-      Clean & Transform Data
-             (Pandas)
-                 │
-                 ▼
-     Load into SQL Database
-      (SQL Server)
-                 │
-                 ▼
-      Business Analysis using SQL
-                 │
-                 ▼
-          Generate Insights
 
-
-
-
-## Tech Stack :
 ### Programming Language
 
 - Python
