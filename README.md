@@ -1,8 +1,8 @@
-# 🛒 Walmart End-to-End Data Analysis Project (Python + SQL)
+# Walmart End-to-End Data Analysis Project (Python + SQL)
 
 ![Project Pipeline](https://github.com/GopalReddyDA/Walmart-Business-Analysis-/blob/main/walmart_project-piplelines.png)
 
-## 📌 Overview
+##  Overview
 
 This project demonstrates an **End-to-End Data Analytics Pipeline** using **Python** and **SQL**. The workflow begins with extracting Walmart sales data from Kaggle, followed by cleaning and transforming the data using **Pandas**. The cleaned data is then loaded into a relational database SQl Server using **SQLAlchemy**. Finally, SQL queries are used to solve real-world business problems and generate valuable insights.
 
